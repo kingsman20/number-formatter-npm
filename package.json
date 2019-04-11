@@ -1,6 +1,6 @@
 {
   "name": "@kingslife/number-formatter-npm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An NPM package that formats numbers",
   "main": "index.js",
   "scripts": {
