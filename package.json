@@ -4,7 +4,8 @@
   "description": "An NPM package that formats numbers",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "engines": {
     "node": ">=4.2.4"
@@ -21,6 +22,8 @@
   "homepage": "https://github.com/kingsman20/number-formatter-npm#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "istanbul": "^0.4.5",
     "mocha": "^6.1.2"
   }
 }
