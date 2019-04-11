@@ -1,6 +1,7 @@
 Number Formatter
 =========
-
+[![Build Status](https://travis-ci.org/kingsman20/number-formatter-npm.svg?branch=master)](https://travis-ci.org/kingsman20/number-formatter-npm)
+[![Coverage Status](https://coveralls.io/repos/github/kingsman20/number-formatter-npm/badge.svg?branch=master)](https://coveralls.io/github/kingsman20/number-formatter-npm?branch=master)
 A small library that adds commas to numbers
 
 ## Installation
